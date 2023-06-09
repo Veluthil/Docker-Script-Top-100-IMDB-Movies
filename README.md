@@ -21,7 +21,14 @@ This Python script utilizes the BeautifulSoup4 library to scrape the IMDb Top 10
    cd Top-100-IMDb-Movies-Docker
    ```
 
-3. Install the required Python dependencies:
+3. Create virtual environment:
+
+   ```bash
+   py -m venv venv
+   venv\Scripts\activate
+   ```
+
+4. Install the required Python dependencies:
 
    ```bash
    pip install -r requests beautifulsoup4
